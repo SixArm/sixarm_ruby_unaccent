@@ -1,0 +1,32 @@
+
+= SixArm.com Ruby Gem Install
+
+
+First-time users: add our gem certificate and source.
+When you do this once, it works for all our gems.
+
+  sudo wget http://sixarm.com/sixarm.pem
+  sudo gem cert --add sixarm.pem   
+  sudo gem sources --add http://sixarm.com
+
+Install the gem with advanced options.
+
+  sudo gem install sixarm_ruby_unaccent --test --trust-policy HighSecurity
+
+
+== Notes
+
+Do you have any questions, comments, suggestions, or feedback?
+Let us know, we're happy to help. Our email is sixarm@sixarm.com
+
+Do you want to create your own high security gems?
+Learn how at http://www.rubygems.org/read/chapter/21
+
+To see your current gem certificate list:
+
+  sudo gem cert --list
+
+Our cert looks like this:
+
+  /C=US/ST=California/L=San Francisco/O=SixArm.com/OU=SixArm.com/CN=SixArm.com/emailAddress=sixarm@sixarm.com
+

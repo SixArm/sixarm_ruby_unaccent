@@ -1,0 +1,10 @@
+
+= SixArm Ruby Gem: Unaccent
+
+Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
+Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
+License:: CreativeCommons License, Non-commercial Share Alike
+License:: LGPL, GNU Lesser General Public License
+
+Replace a string's accent characters with ASCII characters.
+
