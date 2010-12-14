@@ -2,8 +2,8 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <meta name="Content-Type" content="text/html; charset=UTF-8" />
-<title>Documentation by YARD 0.5.3</title>
+    <meta name="Content-Type" content="text/html; charset=utf-8" />
+<title>Documentation by YARD 0.6.3</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
 
@@ -43,28 +43,49 @@
     
     <div id="content"><div id='filecontents'><h1>SixArm Ruby Gem: Unaccent</h1>
 <table>
-<tr><td valign="top">Author:</td><td>Joel Parker Henderson, joelparkerhenderson@gmail.com
-
+<tr><td valign="top">Author</td><td><p>
+Joel Parker Henderson, joelparkerhenderson@gmail.com
+</p>
 </td></tr>
-<tr><td valign="top">Copyright:</td><td>Copyright &#169; 2006-2010 Joel Parker Henderson
-
+<tr><td valign="top">Copyright</td><td><p>
+Copyright &#169; 2006-2010 Joel Parker Henderson
+</p>
 </td></tr>
-<tr><td valign="top">License:</td><td>CreativeCommons License, Non-commercial Share Alike
-
+<tr><td valign="top">License</td><td><p>
+CreativeCommons License, Non-commercial Share Alike
+</p>
 </td></tr>
-<tr><td valign="top">License:</td><td>LGPL, GNU Lesser General Public License
-
+<tr><td valign="top">License</td><td><p>
+LGPL, GNU Lesser General Public License
+</p>
 </td></tr>
 </table>
 <p>
 Replace a string&#8217;s accent characters with ASCII characters.
 </p>
+<p>
+Based on Perl Text::Unaccent from CPAN.
+</p>
+<p>
+@example French
+</p>
+<pre class="code">
+  str = &quot;déjà vu&quot;;
+  str.unaccent =&gt; &quot;deja vu&quot;;
+</pre>
+<p>
+@example Greek
+</p>
+<pre class="code">
+  str = &quot;νέα&quot; (aka &quot;\x{03AD}\x{03BD}\x{03B1}&quot;)
+  str.unaccent =&gt; &quot;νεα&quot; (aka &quot;\x{03B5}\x{03BD}\x{03B1}&quot;)
+</pre>
 </div></div>
     
     <div id="footer">
-  Generated on Wed Mar 17 19:52:36 2010 by 
-  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool">yard</a>
-  0.5.3 (ruby-1.8.7).
+  Generated on Mon Dec 13 18:03:08 2010 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.3 (ruby-1.9.2).
 </div>
 
   </body>

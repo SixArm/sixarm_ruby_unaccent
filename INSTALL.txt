@@ -28,5 +28,5 @@ To see your current gem certificate list:
 
 Our cert looks like this:
 
-  /C=US/ST=California/L=San Francisco/O=SixArm.com/OU=SixArm.com/CN=SixArm.com/emailAddress=sixarm@sixarm.com
+  /C=US/ST=California/L=San Francisco/O=SixArm/CN=sixarm.com
 

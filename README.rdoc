@@ -8,3 +8,16 @@ License:: LGPL, GNU Lesser General Public License
 
 Replace a string's accent characters with ASCII characters.
 
+Based on Perl Text::Unaccent from CPAN.
+
+
+@example French
+
+  str = "déjà vu";
+  str.unaccent => "deja vu";
+
+@example Greek
+
+  str = "νέα" (aka "\x{03AD}\x{03BD}\x{03B1}")
+  str.unaccent => "νεα" (aka "\x{03B5}\x{03BD}\x{03B1}")
+
