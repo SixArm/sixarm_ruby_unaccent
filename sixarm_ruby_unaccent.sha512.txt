@@ -1,1 +1,0 @@
-2bc68be42fee92744ae7748b475f9fdda5bc28a325d567afe54a8427b8d8a691ad5fa06cf0b10277bb33b63ffdb159069d6ee257fcbb81aa8b6f7ad9fe0cf0b0  sixarm_ruby_unaccent-1.0.0.gem
