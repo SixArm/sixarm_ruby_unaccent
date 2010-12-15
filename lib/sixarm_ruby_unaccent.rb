@@ -1,16 +1,15 @@
 # -*- encoding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem: Unaccent
+= SixArm Ruby Gem » Unaccent
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
 
-Replace a string's accent characters with ASCII characters.
+Replace a string's accented characters with unaccented ASCII characters.
 
-Based on Perl Text::Unaccent from CPAN.
+This is based directly on the excellent perl module Text::Unaccent on CPAN.
 
 
 @example French
