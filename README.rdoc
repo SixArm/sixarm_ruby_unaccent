@@ -1,5 +1,4 @@
-
-= SixArm Ruby Gem: Unaccent
+= SixArm.com » Ruby » Unaccent gem
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
