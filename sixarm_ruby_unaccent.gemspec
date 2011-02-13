@@ -1,7 +1,12 @@
 Gem::Specification.new do |s|
 
-  s.name              = "sixarm_ruby_unaccent"
-  s.summary           = "SixArm Ruby Gem: Unaccent to replace a string's accent characters"
+  name                = "sixarm_ruby_unaccent"
+  top_files           = [".gemtest","Rakefile","README.rdoc","LICENSE.txt"]
+  lib_files           = ["lib/#{name}.rb"] 
+  test_files          = ["test/#{name}_test.rb"]
+
+  s.name              = name
+  s.summary           = "SixArm.com » Ruby » Unaccent to replace a string's accent characters"
   s.version           = "1.0.0"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
@@ -12,7 +17,8 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.require_path      = 'lib'
   s.has_rdoc          = true
-  s.files             = ['README.rdoc','LICENSE.txt','lib/sixarm_ruby_unaccent.rb']
-  s.test_files        = ['test/sixarm_ruby_unaccent_test.rb']
+
+  s.files             = top_files + lib_files + test_files
+  s.test_files        = test_files
 
 end
