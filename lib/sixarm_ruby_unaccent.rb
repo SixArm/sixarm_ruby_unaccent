@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » Unaccent gem to replace accented characters
@@ -28,7 +29,7 @@ This is based directly on the excellent perl module Text::Unaccent on CPAN.
 class String
 
   # Replace a string's accented characters with unaccented characters.
-  # 
+  #
   # @example
   #   s = "Å Ç ß"
   #   s.unaccent = > "AA C ss"
