@@ -1,28 +1,6 @@
 # -*- coding: utf-8 -*-
-
 =begin rdoc
-
-= SixArm.com » Ruby » Unaccent gem to replace accented characters
-
-Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright (c) 2006-2011 Joel Parker Henderson
-License:: See LICENSE.txt file
-
-Replace a string's accented characters with unaccented ASCII characters.
-
-This is based directly on the excellent perl module Text::Unaccent on CPAN.
-
-
-@example French
-
-  str = "déjà vu";
-  str.unaccent => "deja vu";
-
-@example Greek
-
-  str = "νέα" (aka "\x{03AD}\x{03BD}\x{03B1}")
-  str.unaccent => "νεα" (aka "\x{03B5}\x{03BD}\x{03B1}")
-
+Please see README.rdoc
 =end
 
 
