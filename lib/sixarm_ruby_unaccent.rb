@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 =begin rdoc
-Please see README.rdoc
+Please see README
 =end
 
 

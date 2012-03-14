@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.require_path      = 'lib'
   s.has_rdoc          = true
 
-  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.rdoc", "VERSION"]
+  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
   lib_files           = ["lib/#{s.name}.rb"]
   test_files          = ["test/#{s.name}_test.rb"]
 
