@@ -2,17 +2,27 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <meta name="Content-Type" content="text/html; charset=utf-8" />
-<title>Class: String</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
-<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Class: String
+  
+    &mdash; Documentation by YARD 0.7.5
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
 
 <script type="text/javascript" charset="utf-8">
   relpath = '';
   if (relpath != '') relpath += '/';
 </script>
-<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
-<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
 
   </head>
   <body>
@@ -33,11 +43,14 @@
 </div>
 
       <div id="search">
-  <a id="class_list_link" href="#">Class List</a>
-  <a id="method_list_link" href="#">Method List</a>
-  <a id ="file_list_link" href="#">File List</a>
+  
+    <a id="class_list_link" href="#">Class List</a>
+  
+    <a id="method_list_link" href="#">Method List</a>
+  
+    <a id="file_list_link" href="#">File List</a>
+  
 </div>
-
       <div class="clear"></div>
     </div>
     
@@ -17761,6 +17774,10 @@
 
 
 
+
+
+
+
   
     <h2>
       Instance Method Summary
@@ -17785,9 +17802,8 @@
   
 
   
-    <span class="summary_desc"><div class='inline'><p>
-Replace a string&#8217;s accented characters with unaccented characters.
-</p>
+    <span class="summary_desc"><div class='inline'>
+<p>Replace a string's accented characters with unaccented characters.</p>
 </div></span>
   
 </li>
@@ -17811,9 +17827,8 @@ Replace a string&#8217;s accented characters with unaccented characters.
   
 </p><div class="docstring">
   <div class="discussion">
-    <p>
-Replace a string&#8217;s accented characters with unaccented characters.
-</p>
+    
+<p>Replace a string's accented characters with unaccented characters.</p>
 
 
   </div>
@@ -17828,20 +17843,20 @@ Replace a string&#8217;s accented characters with unaccented characters.
 s.unaccent = &gt; &quot;AA C ss&quot;</pre>
     
   </div>
+
 <h3>Returns:</h3>
 <ul class="return">
   
     <li>
       
+      
         <span class='type'>(<tt><span class='object_link'><a href="" title="String (class)">String</a></span></tt>)</span>
       
       
       
-      
         &mdash;
-        <div class='inline'><p>
-a string that has no accents
-</p>
+        <div class='inline'>
+<p>a string that has no accents</p>
 </div>
       
     </li>
@@ -17854,15 +17869,15 @@ a string that has no accents
       <pre class="lines">
 
 
-38
-39
-40</pre>
+17
+18
+19</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_unaccent.rb', line 38</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_unaccent.rb', line 17</span>
 
-<span class='kw'>def</span> <span class='id unaccent'>unaccent</span>
-  <span class='id split'>split</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='regexp_end'>/u</span></span><span class='rparen'>)</span><span class='period'>.</span><span class='id map'>map</span> <span class='lbrace'>{</span><span class='op'>|</span><span class='id c'>c</span><span class='op'>|</span> <span class='const'>ACCENTMAP</span><span class='lbracket'>[</span><span class='id c'>c</span><span class='rbracket'>]</span> <span class='op'>||</span> <span class='id c'>c</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>def</span> <span class='id identifier rubyid_unaccent'>unaccent</span>
+  <span class='id identifier rubyid_split'>split</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='regexp_end'>/u</span></span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span><span class='op'>|</span><span class='id identifier rubyid_c'>c</span><span class='op'>|</span> <span class='const'>ACCENTMAP</span><span class='lbracket'>[</span><span class='id identifier rubyid_c'>c</span><span class='rbracket'>]</span> <span class='op'>||</span> <span class='id identifier rubyid_c'>c</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -17874,9 +17889,9 @@ a string that has no accents
 </div>
     
     <div id="footer">
-  Generated on Sat Feb 12 16:22:55 2011 by 
+  Generated on Sat Mar 17 15:22:11 2012 by 
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.6.4 (ruby-1.9.2).
+  0.7.5 (ruby-1.9.3).
 </div>
 
   </body>

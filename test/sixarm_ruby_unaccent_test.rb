@@ -4,22 +4,30 @@ require 'simplecov'
 SimpleCov.start
 require 'sixarm_ruby_unaccent'
 
-class StringTest < Test::Unit::TestCase
+describe String do
 
-  def test_plain
-    assert_equal("abc","abc".unaccent)
-  end
+  describe "#unaccent" do
 
-  def test_accent
-    assert_equal("A AE","Å Æ".unaccent)
-  end
+    it "with plain" do
+      "abc".unaccent.must_equal "abc"
+    end
 
-  def test_french
-    assert_equal("deja vu","déjà vu".unaccent)
-  end
+    it "with angstrom" do
+      "Å".unaccent.must_equal "A"
+    end
 
-  def test_greek
-    assert_equal("νεα","νέα".unaccent)
+    it "with double letter" do
+      "Æ".unaccent.must_equal "AE"
+    end
+
+    it "with french" do
+      "déjà vu".unaccent.must_equal "deja vu"
+    end
+
+    it "with greek" do
+      "νέα".unaccent.must_equal "νεα"
+    end
+
   end
 
 end
