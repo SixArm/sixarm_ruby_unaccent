@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> Unaccent gem
 
-* Docs: <http://sixarm.com/sixarm_ruby_unaccent/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_unaccent/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_unaccent>
 * Repo: <http://github.com/sixarm/sixarm_ruby_unaccent>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
