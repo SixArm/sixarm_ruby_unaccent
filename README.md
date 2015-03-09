@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> GPG gem
+# Ruby » <br> GPG gem
 
 * Doc: <http://sixarm.com/sixarm_ruby_gpg/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_gpg>
