@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> Unaccent gem
+# Ruby » <br> Unaccent gem
 
 * Doc: <http://sixarm.com/sixarm_ruby_unaccent/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_unaccent>
