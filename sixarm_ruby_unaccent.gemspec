@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_unaccent"
@@ -6,8 +8,8 @@ Gem::Specification.new do |s|
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
   s.homepage          = "http://sixarm.com/"
-  s.signing_key       = '/home/sixarm/keys/certs/sixarm-rsa1024-x509-private.pem'
-  s.cert_chain        = ['/home/sixarm/keys/certs/sixarm-rsa1024-x509-public.pem']
+  s.signing_key       = '/opt/keys/sixarm/sixarm-rsa-4096-x509-20145314-private.pem'
+  s.cert_chain        = ['/opt/keys/sixarm/sixarm-rsa-4096-x509-20150314-public.pem']
 
   s.platform          = Gem::Platform::RUBY
   s.require_path      = 'lib'
