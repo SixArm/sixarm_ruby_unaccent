@@ -1,0 +1,7 @@
+languages:
+  Ruby: true
+  JavaScript: true
+exclude_paths:
+  - "coverage/*"
+  - "doc/*"
+  - "test/*"
