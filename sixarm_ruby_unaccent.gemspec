@@ -31,4 +31,9 @@ Gem::Specification.new do |s|
     "test/sixarm_ruby_unaccent_test.rb",
   ]
 
+  s.add_development_dependency('minitest', '>= 5.7.0', '< 6')
+  s.add_development_dependency('rake', '> 10.4.2', '< 11')
+  s.add_development_dependency('simplecov', '>= 0.10.0', '< 2')
+  s.add_development_dependency('coveralls', '>= 0.8.2', '< 2')
+
 end
