@@ -22,10 +22,12 @@ Gem::Specification.new do |s|
   s.files = [
     "Rakefile",
     "lib/sixarm_ruby_unaccent.rb",
+    "lib/sixarm_ruby_unaccent/string.rb",    
   ]
 
   s.test_files = [
     "test/sixarm_ruby_unaccent_test.rb",
+    "test/sixarm_ruby_unaccent_test/string_test.rb",    
   ]
 
   s.add_development_dependency('minitest', '>= 5.7.0', '< 6')
