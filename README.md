@@ -1,8 +1,20 @@
-# Ruby » <br> Unaccent gem
+# SixArm.com » Ruby » <br> Unaccent gem
 
+<!--HEADER-OPEN-->
+
+[![Gem Version](https://badge.fury.io/rb/sixarm_ruby_unaccent.svg)](http://badge.fury.io/rb/sixarm_ruby_unaccent)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_unaccent.png)](https://travis-ci.org/SixArm/sixarm_ruby_unaccent)
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_unaccent.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_unaccent)
+[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_unaccent/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_unaccent?branch=master)
+
+* Git: <https://github.com/sixarm/sixarm_ruby_unaccent>
 * Doc: <http://sixarm.com/sixarm_ruby_unaccent/doc>
-* Gem: <http://rubygems.org/gems/sixarm_ruby_unaccent>
-* Repo: <http://github.com/sixarm/sixarm_ruby_unaccent>
+* Gem: <https://rubygems.org/gems/sixarm_ruby_unaccent>
+* Contact: Joel Parker Henderson, <joel@sixarm.com>
+* Changes: See CHANGES.md file.
+* License: See LICENSE.md file.
+* Helping: See CONTRIBUTING.md file.
+
 <!--HEADER-SHUT-->
 
 ## Introduction
