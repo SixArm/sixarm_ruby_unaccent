@@ -25,6 +25,12 @@ describe String do
       "νέα".unaccent.must_equal "νεα"
     end
 
+    it "converts every character properly" do
+      String::ACCENTMAP.each do |k, v|
+        k.unaccent.must_equal v
+      end
+    end
+
   end
 
 end
