@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    sixarm_ruby_unaccent (1.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -16,7 +21,7 @@ GEM
     mime-types (2.6.1)
     minitest (5.7.0)
     netrc (0.10.3)
-    rake (10.4.2)
+    rake (10.5.0)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -38,10 +43,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coveralls (>= 0.8.2, < 1)
+  coveralls (>= 0.8.2, < 2)
   minitest (>= 5.7.0, < 6)
-  rake (>= 10.4.2, < 11)
-  simplecov (>= 0.10.0, < 1)
+  rake (> 10.4.2, < 11)
+  simplecov (>= 0.10.0, < 2)
+  sixarm_ruby_unaccent!
 
 BUNDLED WITH
-   1.10.5
+   1.15.0

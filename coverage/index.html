@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-06-03T21:45:33-07:00">2017-06-03T21:45:33-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-06-03T21:48:07-07:00">2017-06-03T21:48:07-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">71.43%</span></span>
+    (<span class="covered_percent"><span class="red">60.87%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.74
+         0.64
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>2</b> files in total.
-    <b>7</b> relevant lines. 
-    <span class="green"><b>5</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed </span>
+    <b>3</b> files in total.
+    <b>23</b> relevant lines. 
+    <span class="green"><b>14</b> lines covered</span> and
+    <span class="red"><b>9</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -68,6 +68,16 @@
         <td>4</td>
         <td>2</td>
         <td>0.7</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#350f4fc77828958f1d35fd6165a7a07faa6f3cd3" class="src_link" title="test/sixarm_ruby_unaccent_test/string_test.rb">test/sixarm_ruby_unaccent_test/string_test.rb</a></td>
+        <td class="red strong">56.25 %</td>
+        <td>36</td>
+        <td>16</td>
+        <td>9</td>
+        <td>7</td>
+        <td>0.6</td>
       </tr>
       
     </tbody>
@@ -106322,6 +106332,240 @@
           
           
           <code class="ruby"></code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="350f4fc77828958f1d35fd6165a7a07faa6f3cd3">
+  <div class="header">
+    <h3>test/sixarm_ruby_unaccent_test/string_test.rb</h3>
+    <h4><span class="red">56.25 %</span> covered</h4>
+    <div>
+      <b>16</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>7</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># -*- coding: utf-8 -*-</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &quot;sixarm_ruby_unaccent_test&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe String do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  describe &quot;#unaccent&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;with plain&quot; do</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
+          
+          <code class="ruby">      &quot;abc&quot;.unaccent.must_equal &quot;abc&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;with angstrom&quot; do</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
+          
+          <code class="ruby">      &quot;Å&quot;.unaccent.must_equal &quot;A&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;with double letter&quot; do</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
+          
+          <code class="ruby">      &quot;Æ&quot;.unaccent.must_equal &quot;AE&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;with french&quot; do</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
+          
+          <code class="ruby">      &quot;déjà vu&quot;.unaccent.must_equal &quot;deja vu&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="24">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;with greek&quot; do</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
+          
+          <code class="ruby">      &quot;νέα&quot;.unaccent.must_equal &quot;νεα&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="28">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;converts every character properly&quot; do</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="29">
+          
+          
+          <code class="ruby">      String::ACCENTMAP.each do |k, v|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="30">
+          
+          
+          <code class="ruby">        k.unaccent.must_equal v</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="32">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
+          
+          
+          <code class="ruby">end</code>
         </li>
       
     </ol>
