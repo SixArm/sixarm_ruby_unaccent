@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# frozen_string_literal: true
 =begin rdoc
 String extensions.
 =end
@@ -14,7 +15,9 @@ class String
   # @return [String] a string that has no accents
 
   def unaccent
-    split(//u).map {|c| ACCENTMAP[c] || c }.join("")
+    gsub(/[^a-zA-Z0-9\p{C}]/) do |char|
+      ACCENTMAP.fetch(char, char)
+    end
   end
 
   protected
@@ -17686,7 +17689,7 @@ class String
  # ->   25CB WHITE CIRCLE
  "\u{FFEE}" => "\u{25CB}",
 
-  }
+  }.freeze
 
 end
 
