@@ -3,8 +3,7 @@ cache: bundler
 language: ruby
 rvm:
   - ruby-head
-  - rbx-3.15
-  - 2.4.0
+  - 2.4
   - 2.3
   - 2.2
   - 2.1
