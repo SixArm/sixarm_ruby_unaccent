@@ -1,16 +1,16 @@
 # License
 
-You may choose any of these open source licenses:
+Use any license below. Reference https://spdx.org/licenses/
 
-  * Apache License
-  * BSD License
-  * CreativeCommons License, Non-commercial Share Alike
-  * GNU Affero General Public License (AGPL)
-  * GNU General Public License Version (GPL)
-  * GNU Lesser General Public License (LGPL)
-  * MIT License
-  * Perl Artistic License
-  * Ruby License
+  * Apache License (Apache-2.0)
+  * BSD License (BSD-3-Clause)
+  * Creative Commons (CC-BY-NC-SA-4.0)
+  * GNU Affero General Public License (AGPL-3.0)
+  * GNU General Public License (GPL-3.0)
+  * GNU Lesser General Public License (LGPL-3.0)
+  * MIT License (MIT)
+  * Perl Artistic License (Artistic-2.0)
+  * Ruby License (Ruby)
 
 The software is provided "as is", without warranty of any kind,
 express or implied, including but not limited to the warranties of
