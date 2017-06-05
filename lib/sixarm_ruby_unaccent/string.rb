@@ -17,8 +17,6 @@ class String
     split(//u).map {|c| ACCENTMAP[c] || c }.join("")
   end
 
-  protected
-
   ACCENTMAP = {
 
     # 00A0 NO-BREAK SPACE
