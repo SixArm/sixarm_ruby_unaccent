@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> Unaccent gem
+# SixArm.com → Ruby → <br> Unaccent gem
 
 <!--HEADER-OPEN-->
 
@@ -34,11 +34,11 @@ Want to help? We're happy to get pull requests.
 
 To install using a Gemfile, add this:
 
-    gem "sixarm_ruby_unaccent", ">= 1.1.1", "< 2"
+    gem "sixarm_ruby_unaccent", ">= 1.1.2, < 2"
 
 To install using the command line, run this:
 
-    gem install sixarm_ruby_unaccent -v ">= 1.1.1, < 2"
+    gem install sixarm_ruby_unaccent
 
 To install using the command line with high security, run this:
 
@@ -46,7 +46,7 @@ To install using the command line with high security, run this:
     gem cert --add sixarm.pem && gem sources --add http://sixarm.com
     gem install sixarm_ruby_unaccent -v ">= 1.1.1, < 2" --trust-policy HighSecurity
 
-To require the gem in your code:
+To require this gem in your code:
 
     require "sixarm_ruby_unaccent"
 

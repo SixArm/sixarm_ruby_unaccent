@@ -1,3 +1,4 @@
 .bundle
 .coveralls.yml
 vendor
+.DS_Store
