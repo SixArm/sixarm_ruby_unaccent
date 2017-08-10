@@ -1,4 +1,5 @@
 .bundle
 .coveralls.yml
-vendor
 .DS_Store
+vendor
+Gemfile.lock
