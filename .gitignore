@@ -3,4 +3,5 @@
 .DS_Store
 vendor
 Gemfile.lock
-/coverage
+/coverage/
+/coverage.data
