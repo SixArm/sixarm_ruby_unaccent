@@ -1,7 +1,7 @@
 .bundle
 .coveralls.yml
-.DS_Store
 vendor
+/vendor/
 Gemfile.lock
 /coverage/
 /coverage.data
