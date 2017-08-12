@@ -2,6 +2,6 @@
 .coveralls.yml
 vendor
 /vendor/
-Gemfile.lock
+/Gemfile.lock
 /coverage/
 /coverage.data
