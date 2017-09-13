@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 require "minitest/autorun"
+#require "minitest/benchmark" if ENV["BENCH"]
 require "coveralls"
 require "simplecov"
 Coveralls.wear!

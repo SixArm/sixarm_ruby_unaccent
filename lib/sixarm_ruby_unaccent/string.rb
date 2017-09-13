@@ -14,9 +14,46 @@ class String
   # @return [String] a string that has no accents
 
   def unaccent
-    s = ""
-    each_char{|c| s << (ACCENTMAP[c] || c)}
-    return s
+    unaccent_via_scan
+  end
+
+  # Replace a string's accented characters with unaccented characters,
+  # by using string `#scan` to iterate on characters.
+  #
+  # @example
+  #   s = "Å Ç ß"
+  #   s.unaccent_via_scan = > "AA C ss"
+  #
+  # @return [String] a string that has no accents
+
+  def unaccent_via_scan
+    result=""; scan(/./){|c| result += (ACCENTMAP[c] || c) }; result
+  end
+
+  # Replace a string's accented characters with unaccented characters,
+  # by using string `#each_char` to iterate on characters.
+  #
+  # @example
+  #   s = "Å Ç ß"
+  #   s.unaccent_via_each_char = > "AA C ss"
+  #
+  # @return [String] a string that has no accents
+
+  def unaccent_via_each_char
+    result=""; each_char{|c| result += (ACCENTMAP[c] || c) }; result
+  end
+
+  # Replace a string's accented characters with unaccented characters,
+  # by using string `#split` and `#map` to iterate on characters.
+  #
+  # @example
+  #   s = "Å Ç ß"
+  #   s.unaccent_via_split_map = > "AA C ss"
+  #
+  # @return [String] a string that has no accents
+
+  def unaccent_via_split_map
+    split(//u).map{|c| ACCENTMAP[c] || c }.join("")
   end
 
   ACCENTMAP = {
