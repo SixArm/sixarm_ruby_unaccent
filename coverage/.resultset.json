@@ -27,6 +27,7 @@
         null,
         1,
         0,
+<<<<<<< HEAD
         0,
         0,
         null,
@@ -37,13 +38,21 @@
         null,
         null,
         null,
+=======
         null,
         null,
+        1,
+        0,
         null,
         null,
+        1,
+        0,
         null,
         null,
+        1,
         null,
+        1,
+>>>>>>> Update coverage
         null,
         null,
         null,
@@ -17701,6 +17710,14 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+<<<<<<< HEAD
         null
       ],
       "/Users/joel/git/sixarm/sixarm_ruby_unaccent/test/sixarm_ruby_unaccent_test/string_test.rb": [
@@ -17729,6 +17746,9 @@
         null,
         1,
         0,
+=======
+        null,
+>>>>>>> Update coverage
         null,
         null,
         null,
@@ -17736,6 +17756,10 @@
         null
       ]
     },
+<<<<<<< HEAD
     "timestamp": 1496633316
+=======
+    "timestamp": 1486505606
+>>>>>>> Update coverage
   }
 }
