@@ -5,6 +5,7 @@ Use any license below. Reference https://spdx.org/licenses/
   * Apache License (Apache-2.0)
   * BSD License (BSD-3-Clause)
   * Creative Commons (CC-BY-NC-SA-4.0)
+  * Eclipse Public License (EPL-1.0)
   * GNU Affero General Public License (AGPL-3.0)
   * GNU General Public License (GPL-2.0, GPL-3.0)
   * GNU Lesser General Public License (LGPL-3.0)
