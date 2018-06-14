@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.platform       = Gem::Platform::RUBY
   s.require_path   = "lib"
-  s.has_rdoc       = true
+
 
   s.files = [
     "Rakefile",
