@@ -1,7 +1,12 @@
-.bundle
-vendor
-/vendor/
-/Gemfile.lock
+# SixArm.com → Ruby → GemForge
+# Our default .gitignore rules
+# Updated 2019-04-26T05:22:40Z
+/.bundle
+/.yardoc
+!/.codeclimate/
+!/.codeclimate.yml
+!/.travis.yml
 /coverage/
 /coverage.data
-.DS_Store
+/Gemfile.lock
+/vendor/
