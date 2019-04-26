@@ -1,5 +1,6 @@
 # Changes
 
+* 2017-06-21 1.2.1 Update SimpleCov syntax; drop Coveralls
 * 2017-08-13 1.2.0 Optimize speed by providing multiple strategies
 * 2017-08-10 1.1.3 Update to Ruby 2.4, spdx licenses, rake test, etc.
 * 2015-07-20 1.1.2 Improve quality assurance

@@ -1,5 +1,4 @@
 .bundle
-.coveralls.yml
 vendor
 /vendor/
 /Gemfile.lock
