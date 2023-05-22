@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.homepage       = "http://sixarm.com/"
   s.licenses       = ["Apache-2.0", "Artistic-2.0", "BSD-3-Clause", "CC-BY-NC-SA-4.0", "AGPL-3.0", "EPL-1.0", "GPL-2.0", "GPL-3.0", "LGPL-3.0", "MIT", "MPL-2.0", "Ruby"]
 
-  s.signing_key    =  "/opt/key/sixarm/sixarm-ruby-gem-signing-20230504-/private.pem"
-  s.cert_chain     = ["/opt/key/sixarm/sixarm-ruby-gem-signing-20230504-/public.pem"]
+  s.signing_key    =  "/opt/key/sixarm/sixarm-ruby-gem-signing-20230504-private.pem"
+  s.cert_chain     = ["/opt/key/sixarm/sixarm-ruby-gem-signing-20230504-public.pem"]
 
   s.platform       = Gem::Platform::RUBY
   s.require_path   = "lib"
