@@ -23,7 +23,7 @@ PLATFORMS
 DEPENDENCIES
   minitest (>= 5.12, < 6)
   rake (>= 12.3.3, < 13)
-  simplecov (>= 0.15.1, < 2)
+  simplecov (>= 0.18.0, < 2)
   sixarm_ruby_minitest_extensions (>= 1.0.8, < 2)
   sixarm_ruby_unaccent!
 
