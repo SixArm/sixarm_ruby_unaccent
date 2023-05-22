@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     "test/sixarm_ruby_unaccent_test/string_test.rb",    
   ]
 
-  s.add_development_dependency("minitest", ">= 5.11.1", "< 6")
+  s.add_development_dependency("minitest", ">= 5.12", "< 6")
   s.add_development_dependency("sixarm_ruby_minitest_extensions", ">= 1.0.8", "< 2")
   s.add_development_dependency("rake", ">= 12.3.3", "< 13")
   s.add_development_dependency("simplecov", ">= 0.15.1", "< 2")
