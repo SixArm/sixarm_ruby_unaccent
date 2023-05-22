@@ -8,5 +8,4 @@
 !/.travis.yml
 /coverage/
 /coverage.data
-/Gemfile.lock
 /vendor/

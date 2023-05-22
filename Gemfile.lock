@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    sixarm_ruby_unaccent (1.2.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    docile (1.4.0)
+    minitest (5.18.0)
+    rake (12.3.3)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
+    sixarm_ruby_minitest_extensions (1.1.1)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  minitest (>= 5.11.1, < 6)
+  rake (>= 12.3.0, < 13)
+  simplecov (>= 0.15.1, < 2)
+  sixarm_ruby_minitest_extensions (>= 1.0.8, < 2)
+  sixarm_ruby_unaccent!
+
+BUNDLED WITH
+   2.3.26
