@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_unaccent"
   s.summary        = "SixArm.com → Ruby → Unaccent"
   s.description    = "Unaccent replaces a string's accented characters with unaccented characters"
-  s.version        = "1.2.1"
+  s.version        = "1.2.2"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
