@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sixarm_ruby_unaccent (1.2.1)
+    sixarm_ruby_unaccent (1.2.2)
 
 GEM
   remote: https://rubygems.org/
